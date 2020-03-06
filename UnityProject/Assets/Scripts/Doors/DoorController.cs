@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using Mirror;
 
+[SelectionBase]
 public class DoorController : NetworkBehaviour
 {
 		//public bool isWindowed = false;

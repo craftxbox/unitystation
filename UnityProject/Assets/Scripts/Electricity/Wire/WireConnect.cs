@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using Mirror;
 
+[SelectionBase]
 public class WireConnect : ElectricalOIinheritance
 {
 	public CableInheritance ControllingCable;

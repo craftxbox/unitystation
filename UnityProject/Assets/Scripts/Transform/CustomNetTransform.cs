@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using Mirror;
 
 // ReSharper disable CompareOfFloatsByEqualityOperator
-
+[SelectionBase]
 public partial class CustomNetTransform : ManagedNetworkBehaviour, IPushable, IRightClickable //see UpdateManager
 {
 	//I think this is valid server side only
